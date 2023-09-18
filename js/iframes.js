@@ -1,6 +1,6 @@
 const _iframes = document.getElementById("iframes")
 
-fetch("../config.json").then(config => config.json()).then(config => {
+fetch("./config.json").then(config => config.json()).then(config => {
     config.iframes.forEach(website => {
         const _iframe = document.createElement("iframe")
         _iframe.src = website.url

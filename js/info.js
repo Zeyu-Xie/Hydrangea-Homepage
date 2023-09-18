@@ -2,7 +2,7 @@ const _info = document.getElementById("info")
 const _exchange_rate_info=document.getElementById("exchange_rate_info")
 const _weather_info=document.getElementById("weather_info")
 
-fetch("../config.json").then(config => config.json()).then(config => {
+fetch("./config.json").then(config => config.json()).then(config => {
     config.info["exchange rate"].pairs.forEach(pair => {
         fetch("https://api.api-ninjas.com/v1/exchangerate" + `?pair=${pair}`,{
             headers: {

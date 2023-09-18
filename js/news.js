@@ -22,7 +22,7 @@ let apiKey = ""
 let regions = []
 let url = "https://api.worldnewsapi.com/search-news"
 
-fetch("../config.json").then(config => config.json()).then(config => config.news).then(config => {
+fetch("./config.json").then(config => config.json()).then(config => config.news).then(config => {
     if (config.active === false) {
         _news_container.innerHTML = `<p>News Services have been turned off.<p>`
         return
