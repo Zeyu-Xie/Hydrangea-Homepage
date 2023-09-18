@@ -43,9 +43,6 @@ fetch("./config.json").then(config => config.json()).then(config => config.news)
                 const news = document.createElement("li")
                 news.innerHTML = `
                     <a href="${item.url}">
-                        <img width="300px" src="${item.image}" alt="${item.title}">
-                    </a>
-                    <a href="${item.url}">
                         ${item.title}
                     </a>
                 `

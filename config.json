@@ -29,7 +29,7 @@
         }
     },
     "news": {
-        "active": false,
+        "active": true,
         "source": "WorldNewsAPI",
         "apiKey": "b2f4ff5ecb4a48ce911f4023aa848515",
         "regions": [
