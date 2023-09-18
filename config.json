@@ -10,7 +10,7 @@
         }
     ],
     "news": {
-        "active": true,
+        "active": false,
         "source": "WorldNewsAPI",
         "apiKey": "b2f4ff5ecb4a48ce911f4023aa848515",
         "regions": [
@@ -23,5 +23,19 @@
                 "lang": "en"
             }
         ]
-    }
+    },
+    "iframes": [
+        {
+            "title": "Tsinghua University Web Learning",
+            "url": "https://learn.tsinghua.edu.cn"
+        },
+        {
+            "title": "Tsinghua University Information Portal",
+            "url": "http://info.tsinghua.edu.cn"
+        },
+        {
+            "title": "Tsinghua University Library",
+            "url": "https://lib.tsinghua.edu.cn"
+        }
+    ]
 }
