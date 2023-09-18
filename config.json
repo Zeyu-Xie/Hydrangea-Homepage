@@ -1,0 +1,20 @@
+{
+    "bookmarks": [
+        {
+            "title": "Google",
+            "website": "https://google.com"
+        },
+        {
+            "title": "YouTube",
+            "website": "https://youtube.com"
+        }
+    ],
+    "news": {
+        "source": "NewsAPI",
+        "apiKey": "1f55430dd1484461b5768841d5bf5aa5",
+        "regions": [
+            "us",
+            "cn"
+        ]
+    }
+}
