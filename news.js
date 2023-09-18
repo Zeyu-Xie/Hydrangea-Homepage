@@ -15,6 +15,7 @@ const getLastDate = () => {
 }
 
 const _news = document.getElementById("news")
+const _news_container = document.getElementById("news_container")
 
 let source = ""
 let apiKey = ""
@@ -22,24 +23,33 @@ let regions = []
 let url = "https://api.worldnewsapi.com/search-news"
 
 fetch("./config.json").then(config => config.json()).then(config => config.news).then(config => {
+    if (config.active === false) {
+        _news_container.innerHTML = `<p>News Services have been turned off.<p>`
+        return
+    }
     source = config.source
     apiKey = config.apiKey
     regions = config.regions
 }).then(() => {
     regions.forEach(region => {
+        const news_by_lang = document.createElement("li")
+        news_by_lang.innerHTML = `<h3>${region.region} - ${region.lang}</h3>`
+        const news_by_lang_list = document.createElement("ul")
+        news_by_lang.appendChild(news_by_lang_list)
+        _news.appendChild(news_by_lang)
 
-        fetch(url + `?source-countries=${region.region}&language=${region.lang}&earliest-publish-date=${getLastDate()}&api-key=${apiKey}`).then(res => res.json()).then(res => {
+        fetch(url + `?number=10&source-countries=${region.region}&language=${region.lang}&earliest-publish-date=${getLastDate()}&api-key=${apiKey}`).then(res => res.json()).then(res => {
             res.news.forEach(item => {
                 const news = document.createElement("li")
                 news.innerHTML = `
                     <a href="${item.url}">
-                        <img width=300px src="${item.image}" alt="${item.title}">
+                        <img width="300px" src="${item.image}" alt="${item.title}">
                     </a>
                     <a href="${item.url}">
                         ${item.title}
                     </a>
                 `
-                _news.appendChild(news)
+                news_by_lang_list.appendChild(news)
             })
         }).catch(err_ => {
             console.log("ERROR", err_)
