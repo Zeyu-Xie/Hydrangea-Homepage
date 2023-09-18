@@ -9,6 +9,25 @@
             "website": "https://youtube.com"
         }
     ],
+    "info": {
+        "exchange rate": {
+            "source": "API Ninjas",
+            "apiKey": "4E5hYm0QBhWbPPB92162JA==QY8CCBVsK7BgWbDY",
+            "pairs": [
+                "USD_CNY",
+                "EUR_CNY",
+                "SEK_CNY"
+            ]
+        },
+        "weather": {
+            "source": "API Ninjas",
+            "apiKey": "4E5hYm0QBhWbPPB92162JA==QY8CCBVsK7BgWbDY",
+            "cities": [
+                "Beijing",
+                "Stockholm"
+            ]
+        }
+    },
     "news": {
         "active": false,
         "source": "WorldNewsAPI",
