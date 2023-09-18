@@ -10,11 +10,17 @@
         }
     ],
     "news": {
-        "source": "NewsAPI",
-        "apiKey": "1f55430dd1484461b5768841d5bf5aa5",
+        "source": "WorldNewsAPI",
+        "apiKey": "b2f4ff5ecb4a48ce911f4023aa848515",
         "regions": [
-            "us",
-            "cn"
+            {
+                "region": "us",
+                "lang": "en"
+            },
+            {
+                "region": "cn",
+                "lang": "en"
+            }
         ]
     }
 }
