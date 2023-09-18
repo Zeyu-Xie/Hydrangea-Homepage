@@ -38,8 +38,12 @@
                 "lang": "en"
             },
             {
-                "region": "cn",
+                "region": "ca",
                 "lang": "en"
+            },
+            {
+                "region": "cn",
+                "lang": "zh"
             }
         ]
     },

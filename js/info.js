@@ -23,7 +23,6 @@ fetch("./config.json").then(config => config.json()).then(config => {
                 "X-Api-Key": config.info["weather"].apiKey
             }
         }).then(res => res.json()).then(res => {
-            console.log(res)
             const weather_by_city=document.createElement("li")
             weather_by_city.innerHTML=`
                 <li>
