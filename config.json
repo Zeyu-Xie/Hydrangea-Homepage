@@ -7,6 +7,26 @@
         {
             "title": "YouTube",
             "website": "https://youtube.com"
+        },
+        {
+            "title": "twitter",
+            "website": "https://twitter.com"
+        },
+        {
+            "title": "GitHub",
+            "website": "https://github.com"
+        },
+        {
+            "title": "Tsinghua University Web Learning",
+            "website": "https://learn.tsinghua.edu.cn"
+        },
+        {
+            "title": "Tsinghua University Information Portal",
+            "website": "http://info.tsinghua.edu.cn"
+        },
+        {
+            "title": "Tsinghua University Library",
+            "website": "https://lib.tsinghua.edu.cn"
         }
     ],
     "info": {
