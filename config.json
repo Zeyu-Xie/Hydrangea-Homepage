@@ -1,70 +1,88 @@
 {
-    "bookmarks": [
-        {
-            "title": "Google",
-            "website": "https://google.com"
-        },
-        {
-            "title": "YouTube",
-            "website": "https://youtube.com"
-        },
-        {
-            "title": "twitter",
-            "website": "https://twitter.com"
-        },
-        {
-            "title": "GitHub",
-            "website": "https://github.com"
-        },
-        {
-            "title": "Tsinghua University Web Learning",
-            "website": "https://learn.tsinghua.edu.cn"
-        },
-        {
-            "title": "Tsinghua University Information Portal",
-            "website": "http://info.tsinghua.edu.cn"
-        },
-        {
-            "title": "Tsinghua University Library",
-            "website": "https://lib.tsinghua.edu.cn"
-        },
-        {
-            "title": "bilibili",
-            "website": "https://bilibili.com"
-        },
-        {
-            "title": "QQ Mail",
-            "website": "https://mail.qq.com"
-        },
-        {
-            "title": "Gmail",
-            "website": "https://mail.google.com"
-        },
-        {
-            "title": "facebook",
-            "website": "https://facebook.com"
-        },
-        {
-            "title": "Tsinghua Mailbox",
-            "website": "https://mails.tsinghua.edu.cn"
-        },
-        {
-            "title": "bootstrap",
-            "website": "https://getbootstrap.com"
-        },
-        {
-            "title": "Cloud Convert",
-            "website": "https://cloudconvert.com"
-        },
-        {
-            "title": "Chat GPT",
-            "website": "https://chat.openai.com"
-        },
-        {
-            "title": "POE",
-            "website": "https://poe.com"
-        }
-    ],
+    "bookmarks": {
+        "social": [
+            {
+                "title": "Google",
+                "website": "https://google.com"
+            },
+            {
+                "title": "twitter",
+                "website": "https://twitter.com"
+            },
+            {
+                "title": "Tsinghua University Library",
+                "website": "https://lib.tsinghua.edu.cn"
+            },
+            {
+                "title": "QQ Mail",
+                "website": "https://mail.qq.com"
+            },
+            {
+                "title": "Gmail",
+                "website": "https://mail.google.com"
+            },
+            {
+                "title": "facebook",
+                "website": "https://facebook.com"
+            },
+            {
+                "title": "Tsinghua Mailbox",
+                "website": "https://mails.tsinghua.edu.cn"
+            }
+        ],
+        "sources": [
+            {
+                "title": "YouTube",
+                "website": "https://youtube.com"
+            },
+            {
+                "title": "bilibili",
+                "website": "https://bilibili.com"
+            },
+            {
+                "title": "bootstrap",
+                "website": "https://getbootstrap.com"
+            }
+        ],
+        "info": [
+            {
+                "title": "Tsinghua University Information Portal",
+                "website": "http://info.tsinghua.edu.cn"
+            },
+            {
+                "title": "Tsinghua University Web Learning",
+                "website": "https://learn.tsinghua.edu.cn"
+            }
+        ],
+        "tools": [
+            {
+                "title": "GitHub",
+                "website": "https://github.com"
+            },
+            {
+                "title": "Chat GPT",
+                "website": "https://chat.openai.com"
+            },
+            {
+                "title": "Cloud Convert",
+                "website": "https://cloudconvert.com"
+            },
+            {
+                "title": "Hydrangea GitHub Enhancer",
+                "website": "https://zeyu-xie.github.io/Hydrangea-GitHub-Enhancer"
+            },
+            {
+                "title": "POE",
+                "website": "https://poe.com"
+            }
+        ],
+        "others": [
+            {
+                "title": "Baidu",
+                "website": "https://baidu.com"
+            }
+        ]
+    },
     "info": {
         "exchange rate": {
             "source": "API Ninjas",
@@ -115,6 +133,20 @@
         {
             "title": "Tsinghua University Library",
             "url": "https://lib.tsinghua.edu.cn"
+        }
+    ],
+    "toolkits": [
+        {
+            "title": "Format Converter",
+            "url": "https://cloudconvert.com"
+        },
+        {
+            "title": "Video Downloader",
+            "url": "https://youtube.iiilab.com"
+        },
+        {
+            "title": "Photo Editor",
+            "url": ""
         }
     ]
 }
