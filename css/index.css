@@ -39,14 +39,18 @@
   list-style: none;
 }
 
-#heading_container .row:first-child {
+#navbar_container .navbar-brand {
+  font-family: "Togalite-Bold";
+}
+
+#heading_container .row {
   margin: 2.25rem 0 1.5rem 0;
 }
-#heading_container .row:first-child #logo {
+#heading_container .row #logo {
   width: 64px;
   display: inline-block;
 }
-#heading_container .row:first-child #heading {
+#heading_container .row #heading {
   display: inline-block;
   width: fit-content;
   margin-bottom: 0;
@@ -56,12 +60,8 @@
   margin: 0 1rem 2.25rem 1rem;
 }
 
-#navbar_container .navbar-brand {
-  font-family: "Togalite-Bold";
-}
-
-#bookmarks_container .row {
-  margin: 1rem;
+#bookmarks_container #bookmarks {
+  margin: 0 1rem 0 1rem;
 }
 #bookmarks_container ul {
   display: flex;
@@ -89,7 +89,7 @@
 }
 
 #info_container #info {
-  margin: 1rem;
+  margin: 0 1rem 0 1rem;
 }
 #info_container #info ul {
   display: flex;
@@ -101,8 +101,19 @@
   display: inline-block;
 }
 
+#news_container #news_box {
+  margin: 0 1rem 0 1rem;
+}
+
+#toolkits_container #tools {
+  margin: 0 1rem 0 1rem;
+}
+
 #iframes_container iframe {
-  margin: 16px;
+  margin: 1rem auto 1rem auto;
+}
+#iframes_container #iframes {
+  margin: 0 1rem 0 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

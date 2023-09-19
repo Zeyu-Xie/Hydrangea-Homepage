@@ -17,40 +17,53 @@
 
         margin: 1.5rem 0 0.75rem 0;
     }
+
     h2 {
         font-family: "Togalite-Bold";
         font-size: 1.75rem;
 
         margin: 1.25rem 0 0.625rem 0;
     }
+
     h3 {
         font-size: 1.5rem;
 
         margin: 1rem 0 0.5rem 0;
     }
+
     h4 {
         font-size: 1.25rem;
 
         margin: 0.75rem 0 0.375rem 0;
     }
+
     h5 {
         font-size: 1.125rem;
 
         margin: 0.5rem 0 0.25rem 0;
     }
+
     h6 {
         font-size: 1rem;
 
         margin: 0.25rem 0 0.125rem 0;
     }
+
     ul {
         list-style: none;
     }
 }
 
+#navbar_container {
+    .navbar-brand {
+        font-family: "Togalite-Bold";
+    }
+}
+
 #heading_container {
-    .row:first-child {
+    .row {
         margin: 2.25rem 0 1.5rem 0;
+
         #logo {
             width: 64px;
             display: inline-block;
@@ -62,21 +75,16 @@
             margin-bottom: 0;
         }
     }
+
     p {
         font-family: "Togalite-Bold";
         margin: 0 1rem 2.25rem 1rem;
     }
 }
 
-#navbar_container {
-    .navbar-brand {
-        font-family: "Togalite-Bold";
-    }
-}
-
 #bookmarks_container {
-    .row {
-        margin: 1rem;
+    #bookmarks {
+        margin: 0 1rem 0 1rem;
     }
 
     ul {
@@ -110,7 +118,7 @@
 
 #info_container {
     #info {
-        margin: 1rem;
+        margin: 0 1rem 0 1rem;
 
         ul {
             display: flex;
@@ -125,12 +133,24 @@
     }
 }
 
-#news_container {}
+#news_container {
+    #news_box {
+        margin: 0 1rem 0 1rem;
+    }
+}
 
-#toolkits_container {}
+#toolkits_container {
+    #tools {
+        margin: 0 1rem 0 1rem;
+    }
+}
 
 #iframes_container {
     iframe {
-        margin: 16px;
+        margin: 1rem auto 1rem auto;
+    }
+
+    #iframes {
+        margin: 0 1rem 0 1rem;
     }
 }
