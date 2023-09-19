@@ -14,36 +14,105 @@
 
 <body>
     <div class="container">
-        <img width="84px" src="./image/logo.svg" alt="Hydrangea Homepage" title="Hydrangea Homepage"></svg>
-        <h1>Hydrangea Homepage</h1>
-        <p>test</p>
-        <h2>Websites and Guides</h2>
-        <div>
-            <ul id="bookmarks">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hydrangea Homepage</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Guides</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bookmarks_title">Bookmarks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#info_title">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news_title">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#toolkits_title">Toolkits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#iframes_title">Iframes</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-            </ul>
-        </div>
-        <h2>Basic Info</h2>
-        <div id="info">
-            <h3>Exchange Rate Info</h3>
-            <ul id="exchange_rate_info"></ul>
-            <h3>Weather Info</h3>
-            <ul id="weather_info"></ul>
-        </div>
-        <h2>Info and Reminders</h2>
-        <div id="news_container">
-            <ul id="news">
+        <span id="heading_container">
+            <div class="row">
+                <img id="logo" src="./image/logo.svg" alt="Hydrangea Homepage" title="Hydrangea Homepage"></svg>
+                <h1>Hydrangea Homepage</h1>
+            </div>
+            <p>The Hydrangea Homepage serves as a digital gateway to a diverse realm of online destinations and
+                information.
+                It offers access to prominent websites and resources, delivers currency exchange rates and current
+                weather
+                conditions, and provides insightful news articles.</p>
+        </span>
 
-            </ul>
-        </div>
-        <h2>Toolkits and Resources</h2>
-        <div id="tools">
+        <hr>
 
-        </div>
-        <h2>Iframes</h2>
-        <div id="iframes">
+        <span id="bookmarks_container">
+            <h2 id="bookmarks_title">Bookmarks</h2>
+            <div>
+                <ul id="bookmarks">
 
-        </div>
+                </ul>
+            </div>
+        </span>
+
+        <hr>
+
+        <span id="info_container">
+            <h2 id="info_title">Info</h2>
+            <div id="info">
+                <h3>Exchange Rate Info</h3>
+                <ul id="exchange_rate_info"></ul>
+                <h3>Weather Info</h3>
+                <ul id="weather_info"></ul>
+            </div>
+        </span>
+
+        <hr>
+
+        <span id="news_box">
+            <h2 id="news_title">News</h2>
+            <div id="news_box">
+                <ul id="news">
+
+                </ul>
+            </div>
+        </span>
+
+        <hr>
+
+        <span id="toolkits_container">
+            <h2 id="toolkits_title">Toolkits</h2>
+            <div id="tools">
+
+            </div>
+        </span>
+
+        <span id="iframes_container">
+            <h2 id="iframes_title">Iframes</h2>
+            <div id="iframes">
+
+            </div>
+        </span>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

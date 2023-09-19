@@ -15,7 +15,7 @@ const getLastDate = () => {
 }
 
 const _news = document.getElementById("news")
-const _news_container = document.getElementById("news_container")
+const _news_box = document.getElementById("news_box")
 
 let source = ""
 let apiKey = ""
@@ -24,7 +24,7 @@ let url = "https://api.worldnewsapi.com/search-news"
 
 fetch("./config.json").then(config => config.json()).then(config => config.news).then(config => {
     if (config.active === false) {
-        _news_container.innerHTML = `<p>News Services have been turned off.<p>`
+        _news_box.innerHTML = `<p>News Services have been turned off.<p>`
         return
     }
     source = config.source

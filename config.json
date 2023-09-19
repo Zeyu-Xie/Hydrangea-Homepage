@@ -27,6 +27,42 @@
         {
             "title": "Tsinghua University Library",
             "website": "https://lib.tsinghua.edu.cn"
+        },
+        {
+            "title": "bilibili",
+            "website": "https://bilibili.com"
+        },
+        {
+            "title": "QQ Mail",
+            "website": "https://mail.qq.com"
+        },
+        {
+            "title": "Gmail",
+            "website": "https://mail.google.com"
+        },
+        {
+            "title": "facebook",
+            "website": "https://facebook.com"
+        },
+        {
+            "title": "Tsinghua Mailbox",
+            "website": "https://mails.tsinghua.edu.cn"
+        },
+        {
+            "title": "bootstrap",
+            "website": "https://getbootstrap.com"
+        },
+        {
+            "title": "Cloud Convert",
+            "website": "https://cloudconvert.com"
+        },
+        {
+            "title": "Chat GPT",
+            "website": "https://chat.openai.com"
+        },
+        {
+            "title": "POE",
+            "website": "https://poe.com"
         }
     ],
     "info": {
