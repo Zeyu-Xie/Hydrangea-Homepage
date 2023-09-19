@@ -10,9 +10,20 @@
 
 * {
     font-family: "Togalite-Regular";
+
     h1 {
         font-family: "Togalite-Bold";
+        margin-top: 24px;
     }
+
+    h2 {
+        margin-top: 16px;
+    }
+
+    h3 {
+        margin-top: 10px;
+    }
+
     ul {
         list-style: none;
     }
@@ -25,22 +36,25 @@
 }
 
 #heading_container {
-    #logo {
-        width: 84px;
-        display: inline-block;
-    }
-    #heading {
-        display: inline-block;
-        width: fit-content;
+    .row {
+        #logo {
+            width: 64px;
+            display: inline-block;
+        }
+
+        #heading {
+            display: inline-block;
+            width: fit-content;
+            margin-bottom: 0;
+        }
     }
 }
 
 #bookmarks_container {
     ul {
-        list-style: none;
         display: flex;
         flex-wrap: wrap;
-
+        line-height: 200%;
     }
 
     li {
@@ -67,17 +81,24 @@
 }
 
 #info_container {
-    
+    #exchange_rate_info {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li {
+            width: fit-content;
+            margin: 0;
+            display: inline-block;
+        }
+    }
+    #weather_info {
+
+    }
 }
 
-#news_container {
-    
-}
+#news_container {}
 
-#toolkits_container {
-    
-}
+#toolkits_container {}
 
-#iframes_container {
-    
-}
+#iframes_container {}
