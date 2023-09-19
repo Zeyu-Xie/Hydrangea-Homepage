@@ -57,14 +57,15 @@ fetch("./config.json").then(config => config.json()).then(config => {
             const weather_by_city = document.createElement("li")
             weather_by_city.innerHTML = `
                 <li>
-                    <p>${city}</p>
-                    <ul>
-                        <li>Temperature: ${res.temp}</li>
-                        <li>Cloud Percentage: ${res.cloud_pct}</li>
-                        <li>Wind Speed: ${res.wind_speed}</li>
-                        <li>Sunrise: ${res.sunrise}</li>
-                        <li>Sunset: ${res.sunset}</li>
-                    </ul>
+                    <div class="card m-3" style="width: fit-content; display: inline-block;">
+                        <div class="card-body">
+                            <h5 class="card-title">${city}</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">${res.temp}°C</h6>
+                            <p class="card-text">Wind Speed: ${res.wind_speed}</p>
+                            <p class="card-text">Sunrise: ${res.sunrise}</p>
+                            <p class="card-text">Sunset: ${res.sunset}</p>
+                        </div>
+                    </div>
                 </li>
             `
             _weather_info.appendChild(weather_by_city)

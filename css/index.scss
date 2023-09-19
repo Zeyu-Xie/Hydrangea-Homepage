@@ -81,19 +81,15 @@
 }
 
 #info_container {
-    #exchange_rate_info {
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        li {
-            width: fit-content;
-            margin: 0;
-            display: inline-block;
-        }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
     }
-    #weather_info {
 
+    li {
+        width: fit-content;
+        margin: 0;
+        display: inline-block;
     }
 }
 
@@ -101,4 +97,8 @@
 
 #toolkits_container {}
 
-#iframes_container {}
+#iframes_container {
+    iframe {
+        margin: 16px;
+    }
+}

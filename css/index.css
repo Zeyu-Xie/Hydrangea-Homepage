@@ -62,14 +62,18 @@
   margin: 0;
 }
 
-#info_container #exchange_rate_info ul {
+#info_container ul {
   display: flex;
   flex-wrap: wrap;
 }
-#info_container #exchange_rate_info li {
+#info_container li {
   width: fit-content;
   margin: 0;
   display: inline-block;
+}
+
+#iframes_container iframe {
+  margin: 16px;
 }
 
 /*# sourceMappingURL=index.css.map */
