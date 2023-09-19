@@ -1,8 +1,57 @@
-#logo {
-    width: 84px;
-    display: inline-block;
+@font-face {
+  font-family: "Togalite-Regular";
+  src: url("../fonts/togalite/Togalite-Regular.otf");
+}
+@font-face {
+  font-family: "Togalite-Bold";
+  src: url("../fonts/togalite/Togalite-Bold.otf");
+}
+* {
+  font-family: "Togalite-Regular";
+}
+* h1 {
+  font-family: "Togalite-Bold";
+}
+* ul {
+  list-style: none;
 }
 
-#heading {
-    display: inline-block;
+#navbar_container .navbar-brand {
+  font-family: "Togalite-Bold";
 }
+
+#heading_container #logo {
+  width: 84px;
+  display: inline-block;
+}
+#heading_container #heading {
+  display: inline-block;
+  width: fit-content;
+}
+
+#bookmarks_container ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+#bookmarks_container li {
+  width: 20vw;
+  min-width: 150px;
+}
+#bookmarks_container a img {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+#bookmarks_container a p {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
