@@ -52,6 +52,14 @@
             {
                 "title": "Tsinghua University Web Learning",
                 "website": "https://learn.tsinghua.edu.cn"
+            },
+            {
+                "title": "Tsinghua University Library",
+                "website": "https://lib.tsinghua.edu.cn"
+            },
+            {
+                "title": "Studying in Tsinghua",
+                "website": "http://academic.tsinghua.edu.cn"
             }
         ],
         "tools": [
