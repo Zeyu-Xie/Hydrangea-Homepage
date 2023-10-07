@@ -2,19 +2,17 @@
 //  ContentView.swift
 //  Hydrangea Homepage
 //
-//  Created by 谢泽钰 on 2023/10/7.
+//  Created by Acan on 2023/10/7.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+        VStack(alignment: .leading) {
+            Text("Google").font(.title)
+            Text("Tencent").font(.title)
+        }.frame(alignment: .leading)
         .padding()
     }
 }
