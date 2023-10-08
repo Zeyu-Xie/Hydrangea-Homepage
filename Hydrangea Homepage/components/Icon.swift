@@ -24,9 +24,9 @@ struct Icon: View {
                         .frame(width: 24, height: 24)
                         .aspectRatio(contentMode: .fit)
                 case .failure:
-                    Image(systemName: "Global").resizable().frame(width: 24, height: 24).aspectRatio(contentMode: .fit)
+                    Image(systemName: "globe").resizable().frame(width: 24, height: 24).aspectRatio(contentMode: .fit)
                 @unknown default:
-                    Image(systemName: "Global").resizable().frame(width: 24, height: 24).aspectRatio(contentMode: .fit)
+                    Image(systemName: "global").resizable().frame(width: 24, height: 24).aspectRatio(contentMode: .fit)
                 }
             }
         }
