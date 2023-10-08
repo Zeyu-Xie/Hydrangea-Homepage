@@ -18,7 +18,7 @@ struct ContentView: View {
                     Link(destination: URL(string: "https://zeyu-xie.github.io/Acan")!) {
                         Text("- Made by Acan")
                     }.frame(height: 24)
-                    Link(destination: URL(string: "https://github.com/zeyu-xie/Hydrangea-Homepage/tree/MacOS")!) {
+                    Link(destination: URL(string: "https://github.com/zeyu-xie/Hydrangea-Homepage/tree/iOS")!) {
                         Text("- GitHub")
                     }.frame(height: 24)
                 }.frame(alignment: .leading)
