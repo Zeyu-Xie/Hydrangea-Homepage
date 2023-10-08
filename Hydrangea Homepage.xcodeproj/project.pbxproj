@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF27387E2AD2693D008F77CC /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF27387D2AD2693D008F77CC /* Icon.swift */; };
+		FF2738802AD26B3C008F77CC /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF27387F2AD26B3C008F77CC /* Website.swift */; };
 		FFA00DA12AD1A02300CF4E6B /* Hydrangea_HomepageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA00DA02AD1A02300CF4E6B /* Hydrangea_HomepageApp.swift */; };
 		FFA00DA32AD1A02300CF4E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA00DA22AD1A02300CF4E6B /* ContentView.swift */; };
 		FFA00DA52AD1A02300CF4E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA00DA42AD1A02300CF4E6B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF27387D2AD2693D008F77CC /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		FF27387F2AD26B3C008F77CC /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
 		FFA00D9D2AD1A02300CF4E6B /* Hydrangea Homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydrangea Homepage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA00DA02AD1A02300CF4E6B /* Hydrangea_HomepageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_HomepageApp.swift; sourceTree = "<group>"; };
 		FFA00DA22AD1A02300CF4E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF27387C2AD2691A008F77CC /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FF27387D2AD2693D008F77CC /* Icon.swift */,
+				FF27387F2AD26B3C008F77CC /* Website.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		FFA00D942AD1A02300CF4E6B = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 			children = (
 				FFA00DA02AD1A02300CF4E6B /* Hydrangea_HomepageApp.swift */,
 				FFA00DA22AD1A02300CF4E6B /* ContentView.swift */,
+				FF27387C2AD2691A008F77CC /* components */,
 				FFA00DA42AD1A02300CF4E6B /* Assets.xcassets */,
 				FFA00DA92AD1A02300CF4E6B /* Hydrangea_Homepage.entitlements */,
 				FFA00DA62AD1A02300CF4E6B /* Preview Content */,
@@ -261,6 +275,8 @@
 			files = (
 				FFA00DA32AD1A02300CF4E6B /* ContentView.swift in Sources */,
 				FFA00DA12AD1A02300CF4E6B /* Hydrangea_HomepageApp.swift in Sources */,
+				FF27387E2AD2693D008F77CC /* Icon.swift in Sources */,
+				FF2738802AD26B3C008F77CC /* Website.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
