@@ -17,10 +17,10 @@ struct ContentView: View {
                     Text("Hydrangea Homepage").font(.largeTitle)
                     Link(destination: URL(string: "https://zeyu-xie.github.io/Acan")!) {
                         Text("- Made by Acan")
-                    }
+                    }.frame(height: 24)
                     Link(destination: URL(string: "https://github.com/zeyu-xie/Hydrangea-Homepage/tree/MacOS")!) {
                         Text("- GitHub")
-                    }
+                    }.frame(height: 24)
                 }.frame(alignment: .leading)
                 
                 VStack(alignment: .leading) {
@@ -82,6 +82,8 @@ struct ContentView: View {
                         Website(name: "清华大学", url: "https://www.tsinghua.edu.cn")
                         Website(name: "清华大学图书馆", url: "https://lib.tsinghua.edu.cn", iconUrl: "https://www.tsinghua.edu.cn/favicon.ico")
                         Website(name: "清华 Info", url: "http://info.tsinghua.edu.cn", iconUrl: "https://www.tsinghua.edu.cn/favicon.ico")
+                    }
+                    HStack {
                         Website(name: "网络学堂", url: "https://learn.tsinghua.edu.cn",iconUrl: "https://www.tsinghua.edu.cn/favicon.ico")
                         Website(name: "教学门户", url: "https://academic.tsinghua.edu.cn", iconUrl: "https://www.tsinghua.edu.cn/favicon.ico")
                     }
@@ -89,7 +91,7 @@ struct ContentView: View {
                 
             }.frame(alignment: .leading).padding()
             
-        }.frame(width: 1280)
+        }
     }
 }
 
