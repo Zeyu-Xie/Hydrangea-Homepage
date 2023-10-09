@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             
             VStack(alignment: .leading) {
                 
@@ -35,7 +35,7 @@ struct ContentView: View {
                         Website(name: "Bootstrap", url: "https://getbootstrap.com")
                         Website(name: "Animate.css", url: "https://animate.style", iconUrl: "https://animate.style/img/favicon.ico")
                     }
-                }.frame(alignment: .leading).padding(.top)
+                }.frame(alignment: .leading)
                 
                 VStack(alignment: .leading) {
                     Divider()
@@ -89,9 +89,9 @@ struct ContentView: View {
                     }
                 }.frame(alignment: .leading).padding(.top)
                 
-            }.frame(alignment: .leading).padding()
+            }
             
-        }
+        }.padding()
     }
 }
 
